@@ -19,6 +19,14 @@ https://datahack.analyticsvidhya.com/contest/genpact-machine-learning-hackathon-
 
 * meal_info.csv (51 , 3)
 
+***
+**CONTENIDO DEL REPOSITORIO**
+* Data
+* Notebooks con el codigo
+* Mejores modelos (a excepción del CATBOOST que es muy pesado)
+* Presentación PowerPoint sobre el proyecto
+* Memoria del proyecto
+* Documento PowerBI con visualización final de las proyecciones
 
 ***
 **DESCRIPCIÓN DE LOS DATASETS**
