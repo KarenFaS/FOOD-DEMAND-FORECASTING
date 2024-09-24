@@ -71,10 +71,10 @@ https://datahack.analyticsvidhya.com/contest/genpact-machine-learning-hackathon-
 ***
 **MODELOS DE MACHINE LEARNING**
 
-**METRICA DE EVALUACIÓN**
+**METRICA DE EVALUACIÓN**\
 RSME: es la desviación estándar de los valores residuales (errores de predicción). Los valores residuales son una medida de la distancia de los puntos de datos de la línea de regresión; RMSE es una medida de cuál es el nivel de dispersión de estos valores residuales. En otras palabras, le indica el nivel de concentración de los datos en la línea de mejor ajuste.
 
-**PRIMER ENFOQUE DE VARIABLES**
+**PRIMER ENFOQUE DE VARIABLES**\
 Se aplican los primeros modelos de predicción de Machine Learning utilizando GridSearchCV para identificar los mejores hiperparametros, obteniendo los siguientes resultados:
 
 | Modelo | Score |
@@ -86,7 +86,7 @@ Se aplican los primeros modelos de predicción de Machine Learning utilizando Gr
 | Gradient Boosting Regressor_2 | 66.105 |
 | Gradient Boosting sin dummies | 65.3313 |
 
-Una de las desventajas con este enfoque y estos modelos es que las proyecciones presentan algunas valores negativos. Para analizar los resultados de estos casos se toman todas las predicciones con valores absolutos.
+Una de las desventajas con este enfoque y estos modelos es que las proyecciones presentan algunas valores negativos. Para analizar los resultados de estos casos se toman todas las predicciones con valores absolutos.\
 
 **SEGUNDO ENFOQUE DE VARIABLES**\
 Para mejorar el score de RSME, se opta por el modelo de CATBOOST que funciona mas eficientemente con variables categoricas, es por ello que se categorizan todas las variables con formato binario. Se escalan las variables numericas con valores mas altos y se transforma logartimicamente el target para evitar predicciones con valores negativos. El resultado: 
@@ -95,6 +95,6 @@ Para mejorar el score de RSME, se opta por el modelo de CATBOOST que funciona ma
 |---|---|
 | CATBOOST | 51.7835 |
 
-**Dashboard**
+**DASHBOARD**\
 
 ![dashboard](images/PoweBi%20Presentacion%20de%20proyecciones.gif)
