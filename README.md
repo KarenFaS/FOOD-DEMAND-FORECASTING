@@ -86,7 +86,7 @@ Se aplican los primeros modelos de predicción de Machine Learning utilizando Gr
 | Gradient Boosting Regressor_2 | 66.105 |
 | Gradient Boosting sin dummies | 65.3313 |
 
-Una de las desventajas con este enfoque y estos modelos es que las proyecciones presentan algunas valores negativos. Para analizar los resultados de estos casos se toman todas las predicciones con valores absolutos.\
+Una de las desventajas con este enfoque y estos modelos es que las proyecciones presentan algunas valores negativos. Para analizar los resultados de estos casos se toman todas las predicciones con valores absolutos.
 
 **SEGUNDO ENFOQUE DE VARIABLES**\
 Para mejorar el score de RSME, se opta por el modelo de CATBOOST que funciona mas eficientemente con variables categoricas, es por ello que se categorizan todas las variables con formato binario. Se escalan las variables numericas con valores mas altos y se transforma logartimicamente el target para evitar predicciones con valores negativos. El resultado: 
@@ -95,6 +95,6 @@ Para mejorar el score de RSME, se opta por el modelo de CATBOOST que funciona ma
 |---|---|
 | CATBOOST | 51.7835 |
 
-**DASHBOARD**\
+**DASHBOARD**
 
 ![dashboard](images/PoweBi%20Presentacion%20de%20proyecciones.gif)
