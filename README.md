@@ -95,6 +95,8 @@ Para mejorar el score de RSME, se opta por el modelo de CATBOOST que funciona ma
 |---|---|
 | CATBOOST | 51.7835 |
 
+---
+
 **DASHBOARD**
 
 ![dashboard](images/PoweBi%20Presentacion%20de%20proyecciones.gif)
